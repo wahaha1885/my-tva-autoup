@@ -1,0 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: pip3 install kivy
+    command: buildozer -v android debug
